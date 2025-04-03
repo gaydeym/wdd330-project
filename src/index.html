@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Recipe Finder</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/styles.css" />
+    <script type="module" src="js/app.js"></script>
+  </head>
+
+  <body>
+    <header id="header"></header>
+
+    <main class="container">
+      <section id="search-section">
+        <div class="search-container">
+          <h2>Find recipes with your ingredients</h2>
+          <p>
+            Enter ingredients you have (comma separated) and discover delicious
+            recipes!
+          </p>
+          <div class="input-group">
+            <input
+              type="text"
+              id="ingredients-input"
+              placeholder="e.g., chicken, potatoes, tomato"
+            />
+            <button id="search-btn">Find Recipes</button>
+            <button id="clear-btn">Clear</button>
+          </div>
+          <div class="ingredients-history" id="ingredients-history">
+            <h3>Recent Ingredients:</h3>
+            <div id="history-tags"></div>
+          </div>
+
+          <div class="filter-categories" id="filter-categories">
+            <h3>Filter by Categories:</h3>
+            <div id="category-filters" class="category-filters"></div>
+          </div>
+        </div>
+      </section>
+
+      <div id="loading" class="loading-spinner hidden">
+        <div class="spinner"></div>
+        <p>Finding delicious recipes...</p>
+      </div>
+
+      <section id="results-section" class="hidden">
+        <h2>Recipe Suggestions</h2>
+        <div class="active-filters" id="active-filters"></div>
+        <div id="results-container" class="recipe-grid"></div>
+      </section>
+
+      <section id="favorites-section" class="hidden">
+        <h2>Your Favorite Recipes</h2>
+        <div id="favorites-container" class="recipe-grid"></div>
+      </section>
+
+      <div id="recipe-modal" class="modal hidden">
+        <div class="modal-content">
+          <span class="close-modal">&times;</span>
+          <div id="modal-content"></div>
+        </div>
+      </div>
+    </main>
+
+    <footer id="footer"></footer>
+  </body>
+</html>
