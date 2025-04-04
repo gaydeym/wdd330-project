@@ -1,3 +1,5 @@
+// https://spoonacular.com/food-api/docs#Search-Recipes-by-Ingredients
+
 const API_KEY = import.meta.env.VITE_SPOONACULAR_API_KEY || ''
 const BASE_URL = 'https://api.spoonacular.com'
 

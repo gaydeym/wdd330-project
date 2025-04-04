@@ -168,6 +168,22 @@ button:active {
   background: var(--dark);
 }
 
+.filter-button:hover::after {
+  /* https://davidwalsh.name/css-attr-content-tooltips */
+  content: attr(data-tooltip);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.5rem 1rem;
+  background: var(--dark);
+  border-radius: var(--border-radius-s);
+  color: var(--white);
+  font-size: 0.9rem;
+  white-space: nowrap;
+  pointer-events: none;
+}
+
 /* HISTORY OF INGREDIENTS */
 .ingredients-history {
   margin: 1.5rem 0;
@@ -215,6 +231,10 @@ button:active {
   padding-top: 1.5rem;
   border-top: 1px solid var(--light-gray);
   animation: fadeIn 0.5s ease;
+}
+
+.filter-categories p {
+  margin-top: 0.75rem;  
 }
 
 .category-filters {

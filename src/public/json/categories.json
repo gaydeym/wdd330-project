@@ -1,84 +1,104 @@
 {
   "categories": [
     {
-      "name": "Vegetarian",
-      "description": "Recipes that do not contain meat or seafood."
-    },
-    {
-      "name": "Vegan",
-      "description": "Recipes that do not contain any animal products."
-    },
-    {
-      "name": "Gluten Free",
-      "description": "Recipes that do not contain gluten."
-    },
-    {
-      "name": "Dairy Free",
-      "description": "Recipes that do not contain dairy."
-    },
-    {
-      "name": "Quick Meals",
-      "description": "Recipes that can be prepared in 30 minutes or less."
-    },
-    {
-      "name": "Low Carb",
-      "description": "Recipes that are low in carbohydrates."
-    },
-    {
-      "name": "Keto",
-      "description": "Recipes suitable for a ketogenic diet."
-    },
-    {
-      "name": "Paleo",
-      "description": "Recipes suitable for a paleolithic diet."
-    },
-    {
-      "name": "High Protein",
-      "description": "Recipes that are high in protein."
-    },
-    {
-      "name": "Low Calorie",
-      "description": "Recipes that are low in calories."
-    },
-    {
-      "name": "Breakfast",
-      "description": "Recipes suitable for breakfast."
-    },
-    {
-      "name": "Lunch",
-      "description": "Recipes suitable for lunch."
-    },
-    {
-      "name": "Dinner",
-      "description": "Recipes suitable for dinner."
-    },
-    {
-      "name": "Dessert",
-      "description": "Sweet recipes typically served after a meal."
-    },
-    {
-      "name": "Snack",
-      "description": "Small, light meals between regular meals."
-    },
-    {
-      "name": "Soup",
-      "description": "Liquid food typically served warm or hot."
-    },
-    {
-      "name": "Salad",
-      "description": "Cold dishes of various mixtures of raw or cooked vegetables."
-    },
-    {
-      "name": "Side Dish",
-      "description": "Food items served alongside the main course."
-    },
-    {
       "name": "Appetizer",
-      "description": "Small dishes served before a meal."
+      "description": "Small dishes served before a meal"
     },
     {
       "name": "Beverage",
-      "description": "Drinkable liquids."
+      "description": "Drinkable liquids"
+    },
+    {
+      "name": "Breakfast",
+      "description": "Recipes suitable for breakfast"
+    },
+    {
+      "name": "Bread",
+      "description": "Recipes suitable for bread"
+    },
+    {
+      "name": "Dessert",
+      "description": "Sweet recipes typically served after a meal"
+    },
+    {
+      "name": "Drink",
+      "description": "Recipes suitable for drinks"
+    },
+    {
+      "name": "Fingerfood",
+      "description": "Recipes suitable as finger food"
+    },
+    {
+      "name": "Gluten Free*",
+      "description": "Recipes that do not contain gluten"
+    },
+    {
+      "name": "Ketogenic*",
+      "description": "Recipes suitable for a ketogenic diet"
+    },
+    {
+      "name": "Lacto-Vegetarian*",
+      "description": "Recipes suitable for a lacto-vegetarian diet"
+    },
+    {
+      "name": "Low FODMAP*",
+      "description": "Recipes suitable for a low FODMAP diet"
+    },
+    {
+      "name": "Main Course",
+      "description": "Recipes suitable for the main course"
+    },
+    {
+      "name": "Marinade",
+      "description": "Recipes suitable for marinades"
+    },
+    {
+      "name": "Ovo-Vegetarian*",
+      "description": "Recipes suitable for an ovo-vegetarian diet"
+    },
+    {
+      "name": "Paleo*",
+      "description": "Recipes suitable for a paleolithic diet"
+    },
+    {
+      "name": "Pescetarian*",
+      "description": "Recipes suitable for a pescetarian diet"
+    },
+    {
+      "name": "Primal*",
+      "description": "Recipes suitable for a primal diet"
+    },
+    {
+      "name": "Salad",
+      "description": "Cold dishes of various mixtures of raw or cooked vegetables"
+    },
+    {
+      "name": "Sauce",
+      "description": "Recipes suitable for sauces"
+    },
+    {
+      "name": "Side Dish",
+      "description": "Food items served alongside the main course"
+    },
+    {
+      "name": "Snack",
+      "description": "Small, light meals between regular meals"
+    },
+    {
+      "name": "Soup",
+      "description": "Liquid food typically served warm or hot"
+    },
+    {
+      "name": "Vegetarian*",
+      "description": "Recipes that do not contain meat or seafood"
+    },
+    {
+      "name": "Vegan*",
+      "description": "Recipes that do not contain any animal products"
+    },
+    {
+      "name": "Whole30*",
+      "description": "Recipes suitable for the Whole30 diet"
     }
   ]
 }

@@ -47,6 +47,8 @@ export function renderCategoryFilters(
     const btn = document.createElement('button')
     btn.className = `filter-button ${isActive ? 'active' : ''}`
     btn.dataset.category = category.name
+    // btn.title = category.description
+    btn.dataset.tooltip = category.description;
     btn.style.animation = `fadeIn 0.3s ease forwards ${index * 0.05}s`
     btn.style.opacity = '0'
     btn.innerHTML = `${isActive ? '<span class="check-icon">✓</span>' : ''}${category.name}`
