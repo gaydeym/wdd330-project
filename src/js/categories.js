@@ -1,7 +1,7 @@
 // Loading categories from categories.json
 export async function loadCategories() {
   try {
-    const response = await fetch('/public/json/categories.json')
+    const response = await fetch('/json/categories.json')
     if (!response.ok)
       throw new Error(`Error loading categories: ${response.status}`)
     return await response.json()
